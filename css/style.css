@@ -756,6 +756,9 @@ label {
 #contact-section .social {
 	margin-top: 60px;
 }
+#contact-section .social ul {
+	padding-left: 0px !important;
+}
 #contact-section .social ul li {
 	display: inline-block;
 	margin: 0 20px;
@@ -767,7 +770,7 @@ label {
 	transition: all 0.5s;
 }
 #contact-section .social i.fa:hover {
-	color: #032731;
+	color: #ffffff;
 }
 #contact-section .btn {
 	background: transparent;
@@ -798,6 +801,24 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
+
+.network-section a
+{
+	color: white;
+	font-size: medium;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.network-section ul
+{
+	padding-left: 0 !important;
+}
+
+.network-section ul li a:hover
+{
+	color: #f1c40f !important;
+}
+
 /* Footer */
 #footer {
 	background: #032731;
